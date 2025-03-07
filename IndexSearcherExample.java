@@ -84,7 +84,7 @@ public class IndexSearcherExample {
             int docId = hits[i].doc;
 
             // Retrieve the Document using searcher.doc().
-            Document d = searcher.storedFields().document(docId);
+            Document d = searcher.doc(docId);
 
             // Extract the file's content, filename, and path
             String content = d.get("content");
