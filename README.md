@@ -3,7 +3,9 @@
 **Before running:**
 Add Lucene Libraries: You'll need to add the Apache Lucene libraries to your project. 
 You can do this by manually downloading the JAR files and adding them to your classpath.
-Contains .vscode/setting.json that has already added the JAR files to the classpath. 
+Repository contains .vscode/setting.json that has already added the JAR files to the classpath. 
+
+Create (mkdir) an *index* directory.
 
 ***TextFileIndexer.java***
 The program will create a Lucene index in the specified indexDirPath.
