@@ -5,7 +5,7 @@ Add Lucene Libraries: You'll need to add the Apache Lucene libraries to your pro
 You can do this by manually downloading the JAR files and adding them to your classpath.
 Contains .vscode/setting.json that has already added the JAR files to the classpath. 
 
-***TextFileIndexer.java**
+***TextFileIndexer.java***
 The program will create a Lucene index in the specified indexDirPath.
 You can then use the Lucene search API to query the index and retrieve documents based on their content or file names.
 This program provides a basic framework for indexing .txt files. You can extend it to handle other file types, add more metadata fields, and implement more advanced indexing and search features.
@@ -50,6 +50,8 @@ For each result:
 - Retrieves the Document using searcher.doc().
 - Prints the filename, filepath, and a snippet of the content.
 - Closes the IndexReader.
+
+***data directory:*** Except for dog.txt, all of the public domain novels were downloaded from [Project Gutenbuerg](https://www.gutenberg.org)
 
 
 
