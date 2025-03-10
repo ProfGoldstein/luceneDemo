@@ -27,7 +27,7 @@ java -cp lucene-queryparser-8.8.2.jar:lucene-core-8.8.2.jar:lucene-analysis-comm
 Setting CLASSPATH first
 Windows gitBash:
 Make sure that you are **not** using smart quotes
-export CLASSPATH="./*"
+export CLASSPATH="./*;."
 Compile:
 javac TextFileIndexer.java
 javac IndexSearcherExample.java
@@ -40,7 +40,7 @@ java IndexSearcherExample
  
 
 Command line Linux (HPC):
-export CLASSPATH=./*
+export CLASSPATH=./*:.
 Compile:
 javac TextFileIndexer.java
 javac IndexSearcherExample.java
