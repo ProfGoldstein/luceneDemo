@@ -20,8 +20,7 @@ import java.nio.file.Paths;
  * <p>
  * You can then use the Lucene search API to query the index and retrieve
  * documents based on their content or file names. This program provides a basic
- * framework for indexing
- * .txt files.
+ * framework for indexing .txt files.
  * 
  * You can extend it to handle other file types, add more metadata fields, and
  * implement more advanced indexing and search features.
