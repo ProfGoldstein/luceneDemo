@@ -1,3 +1,4 @@
+Full, explict, commands:
 Windows command line and Windows gitBash:
 Make sure that you are **not** using smart quotes
 Compile:
@@ -22,6 +23,33 @@ java -cp lucene-queryparser-8.8.2.jar:lucene-core-8.8.2.jar:lucene-analysis-comm
 Run IndexSearcherExample:
 java -cp lucene-queryparser-8.8.2.jar:lucene-core-8.8.2.jar:lucene-analysis-common-8.8.2.jar:. IndexSearcherExample
 
+
+Setting CLASSPATH first
+Windows gitBash:
+Make sure that you are **not** using smart quotes
+export CLASSPATH="./*"
+Compile:
+javac TextFileIndexer.java
+javac IndexSearcherExample.java
+
+Run TextFileIndexer once:
+java TextFileIndexer
+
+Run IndexSearcherExample:
+java IndexSearcherExample
+ 
+
+Command line Linux (HPC):
+export CLASSPATH=./*
+Compile:
+javac TextFileIndexer.java
+javac IndexSearcherExample.java
+
+Run TextFileIndexer once:
+java TextFileIndexer
+
+Run IndexSearcherExample:
+java IndexSearcherExample
 
 
 VSCode's .vscode\settings.json file:
